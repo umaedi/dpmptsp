@@ -1,0 +1,196 @@
+
+
+.banner{
+	width: 100%;
+	position: relative;
+	height: 657px;
+	z-index: 2;
+	background-image:
+	url(img/awan2.png),
+	url(img/busmini.html),
+	url(img/busbesar.png),
+	url(img/sepedapr.png),
+	url(img/sepedalk.png),
+	url(img/truck.png),
+	url(img/vespaok.png),
+    url(img/gojek.png),
+    url(img/gojek.png),
+	url(img/polisi.png),
+
+	url(img/mbl.png),
+	url(img/bus1.png),
+	url(img/ambulanok.png),
+	url(img/walk.gif),
+	url(img/walk2.gif),
+	url(img/sepeda2.gif),
+	url(img/sepeda.gif),
+	url(img/people.gif),
+	url(img/bgkota.jpg);
+	background-position:
+	0px 0px,
+	102% 95%,
+	120% 95%,
+	120% 95%,
+	120% 92%,
+	120% 92%,
+	102% 87%,
+	102% 95%,
+	102% 95%,
+	120% 95%,
+	120% 95%, /*orang*/
+	120% 95%,
+	102% 99.5%,
+	120% 95%, /*orang*/
+	120% 95%, /*orang*/
+	120% 95%, /*sepeda*/
+	150% 95%, /*sepeda*/
+	120% 95%, /*orang*/
+	0px 0px;
+	background-repeat:
+	repeat-x,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	repeat-x  ;
+	animation: animate-backgroung linear 50s infinite;
+}
+@keyframes animate-backgroung{
+	/* Cara mengatur posisi awal ikon */
+	from { background-position:
+	0px 0px,
+	300% 95%,
+	300% 97%, 		/* Cara mengatur posisi awal bus sekolah */
+	300% 97%, 		/* Cara mengatur posisi awal sepeda*/
+	350% 92%, 		/* Cara mengatur posisi awal sepeda*/
+	700% 90%, 		/* Cara mengatur posisi awal truck */
+	-100% 89%,		/* Cara mengatur posisi awal vespa */
+	-140% 88%,		/* Cara mengatur posisi awal gojek */
+	400% 88%,		/* Cara mengatur posisi awal gojek */
+	98% 98%, 		/* Cara mengatur posisi awal polisi */
+
+	-30% 92%,		/* Cara mengatur posisi awal mbl merah */
+	-130% 95%,		/* Cara mengatur posisi awal bus */
+	-300% 85%,
+	0% 81%, 		/* Cara mengatur posisi awal orang */
+	-200% 80%, 		/* Cara mengatur posisi awal orang */
+	-310% 80%, 		/* Cara mengatur posisi awal sepeda */
+	-100% 81%, 		/* Cara mengatur posisi awal sepeda2 */
+	-100% 65%, 		/* Cara mengatur posisi awal orang */
+	0px 0px; }
+	/* Cara mengatur posisi ikon mempercepat frame*/
+    to { background-position:
+	4000px 0px,
+	-200% 95%,
+	-120% 98%,
+	-5% 97%,
+	-15% 97%,
+	-85% 90%,
+	800% 85%,
+	500% 85%,
+	500% 85%,
+	-600% 98%,
+	
+	800% 92%,
+	600% 95%,
+	600% 85%,
+	140% 81%, /* Cara mengatur posisi awal orang */
+	140% 80%, /* Cara mengatur posisi awal orang */
+	140% 80%, /* Cara mengatur posisi awal sepeda */
+	310% 81%, /* Cara mengatur posisi awal sepeda2 */
+	110% 81%, /* Cara mengatur posisi awal orang */
+	2800px 0px; }
+	/* Cara mengatur posisi ikon                                                                                          ,  background*/
+}
+
+.middle{
+	position: fixed;
+	top: 29%;
+	left: 65%;
+	transform: translate(-45%, 73%);
+	transform: translate(-99%);
+	text-align: center;
+}
+	.tooltip {
+		position: relative;
+		display: inline-block;
+	 	font-size: 12px;
+		}
+
+		.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 110px;
+		background-color: black;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+		position: absolute;
+		z-index: 1;
+		top: -100%;
+		left: 50%;
+		margin-left: -55px;
+		}
+
+		.tooltip .tooltiptext::after {
+		content: "";
+		position: absolute;
+		bottom: 100%;
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: transparent transparent black transparent;
+		}
+
+		.tooltip:hover .tooltiptext {
+		visibility: visible;
+
+	 }
+
+		.gambar {
+			display: none;
+		}
+
+		.logone {
+			display: none;
+		}
+		.w3-container {
+			display: none;
+		}
+		.w3-card {
+			display: none;
+		}
+		.w3-card-4 {
+		display: none;
+		}
+		.w3-row {
+			display: none;
+		}
+		@keyframes aaa {
+			0%{
+				left: -110%;
+				top: 90%;
+			}0%{
+				left: -10%;
+				top: 10%;
+			}100%{
+			top: -0%;
+			left: -10%;
+			}
+		}
+
+	 
